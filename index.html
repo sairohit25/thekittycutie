@@ -39,13 +39,44 @@
         const DB_URL = "https://valentinekitty-fa39c-default-rtdb.firebaseio.com/"; // PASTE YOUR URL HERE (Add .json at the end of your URL in the fetch calls below)
 
         const tokens = [
-            { id: "t1", icon: "🏆", title: "The Tie-Breaker", desc: "Instantly win any debate or choice of what to eat/watch." },
-            { id: "t2", icon: "🏠", title: "House Takeover", desc: "I handle everything for 24hrs while you just relax and give orders." },
-            { id: "t3", icon: "🛠️", title: "Tech Concierge", desc: "Unlimited digital help. I'll fix every bug and update every app." },
-            { id: "t4", icon: "💆", title: "The 30-Min Spa", desc: "A focused, professional-grade massage of your choice." },
-            { id: "t5", icon: "🍳", title: "Chef's Special", desc: "I cook your favorite meal from scratch and handle all cleanup." },
-            { id: "t6", icon: "🍫", title: "Snack Fetch", desc: "I will procure any craving immediately, no matter the time." }
-        ];
+    { 
+        id: "t1", 
+        icon: "🍕", 
+        title: "Dinner Night", 
+        desc: "Valid for one dinner at your choice of restaurant. You have unlimited power. Choose wisely… I shall remain respectfully silent." 
+    },
+    { 
+        id: "t2", 
+        icon: "✨", 
+        title: "Yes Day", 
+        desc: "I have to say \"Yes\" to everything you suggest for 24 hours." 
+    },
+    { 
+        id: "t3", 
+        icon: "🏆", 
+        title: "The Decision Maker", 
+        desc: "Can't decide on dinner or a movie or have a debate? Use this to win any debate instantly. [Valid for 1 Week]" 
+    },
+    { 
+        id: "t4", 
+        icon: "👩‍🍳", 
+        title: "Chef for a Night", 
+        desc: "I’ll cook your favorite meal. You just sit there and look pretty. It might not taste perfect, but it’ll be seasoned with love… and mild panic." 
+    },
+    { 
+        id: "t5", 
+        icon: "💆", 
+        title: "The 30-Min Spa", 
+        desc: "A focused 30-minute massage of your choice. I don’t have a license, but I do have strong thumbs and determination." 
+    },
+    { 
+        id: "t6", 
+        icon: "🍫", 
+        title: "Snack Fetch Request", 
+        desc: "I will procure your favorite snack immediately - from the kitchen or the store. No distance too far, no aisle too confusing." 
+    }
+];
+
 
         // 1. Check if she already said Yes or if tokens are redeemed
         window.onload = async () => {
@@ -107,3 +138,4 @@
 </body>
 
 </html>
+
