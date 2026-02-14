@@ -174,8 +174,8 @@
         }
 
         function accept() {
-            startHearts(); // Start the floating hearts
             celebrateSound.play().catch(e => console.log("Audio play failed:", e));
+            startHearts(); // Start the floating hearts
             confetti({ particleCount: 200, spread: 100 });
             document.getElementById('ask-screen').style.display = 'none';
             document.getElementById('main-content').classList.remove('hidden-content');
@@ -184,6 +184,7 @@
 </body>
 
 </html>
+
 
 
 
